@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khrona</title>
+    <link rel="stylesheet" href="estilo_body.css">
+    <link rel="stylesheet" href="estilo_responsivo.css">
+    <link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="darkmode.js"></script>
+    
+</head>
+
+<body>
+    <header>
+        <img class="config_logo" src="imagem_logo.png" alt="">
+        <nav class="config_nav">
+            <a class="config_menu_superior" href="#">Home</a>
+            <a class="config_menu_superior" href="#">About</a>
+            <a class="config_menu_superior" href="#">Sale</a>
+            <a class="config_menu_superior" href="#">Social Media</a>
+            <input type="checkbox" name="" id="">
+        </nav>
+    
+
+
+    </header>
+    <article class="article_texto_lateral">
+        <h1>Join us on this journey now!</h1>
+        <p><i>We have more than 10,000 students worldwide</i></p>
+        <p><i> 90%of our students leave with guaranteed job opportunities.</i></p>
+        <h2>Come and be a part of our team!"</h2>
+        <h2 style="color: #455953;"><i>Khrona, turning dreams into lifestyle.</i></h2>
+        <h1>Say "Hello World!"</h1>
+        <h2><img class="mao_emoji" src="icones/mao_gif.gif" alt="mao"></h2>
+    </article>
+
+    <section class="posic_section_login">
+        <div class="config_div_login">
+            <h1 class="h1_format">Welcome back!Enter your login to continue:</h1>
+            <form action="login.php" method="post" autocomplete="on">
+                <div>
+                    <label for="ilogin"><span class="material-symbols-outlined">Person</span></label>
+                    <input type="email" name="login" id="ilogin" placeholder="Email" autocomplete="email" required
+                        maxlength="50">
+
+                </div>
+
+                <div>
+                    <label for="isenha"><span class="material-symbols-outlined">Lock</span></label>
+                    <input type="password" name="senha" id="isenha" placeholder="Your Password"
+                        autocomplete="current-password" required minlength="8" maxlength="12">
+                </div>
+                <div class="div_botao_entrar"><input class="botao_entrar" type="submit" value="Sign in"></div>
+                <a href="esqueci.html" class="botao_esqueci_senha">I forgot my password!</a>
+
+                <p class="texto_aviso">If you forget your password, we will send a confirmation to your registered email
+                    address so that we can verify that it's you who is attempting to log in.
+                    Our team will never ask for your password or login details, so please keep your account secure.
+                    Come and embark on this journey with us!</p>
+
+            </form>
+
+            <div class="config_div_matriculese">
+                <button class="config_matriculese">
+                    <a class="estilo_matriculese" href="#">ENROLL NOW!</a>
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>Criado e desenvolvolvido por Vinicius Bento <span>&#174</span></p>
+    </footer>
+
+
+</body>
+
+</html>
