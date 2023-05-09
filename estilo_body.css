@@ -6,12 +6,13 @@ musgo:#455953
 musgoescuro:#1b4443
 
 */
-
-
-
 body {
     background-color: #f8f5f8;
+    
+    
 }
+
+
 
 .config_logo {
     width: 50px;
@@ -65,6 +66,7 @@ body {
 .posic_section_login {
     padding-top: 100px;
     padding-left: 800px;
+    margin-bottom: 200px;
 
 }
 
@@ -183,3 +185,4 @@ footer {
     width: 40px;
     height: 30px;
 }
+
